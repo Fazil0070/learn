@@ -1,0 +1,55 @@
+/* landing.css */
+
+/* Hero Section Background */
+.hero-bg {
+  background: url('/path/to/your/hero-image.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+/* Feature Grid */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.feature-item {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+}
+
+.feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1d4ed8;
+}
+
+.feature-title {
+  color: #1f2937;
+}
+
+.feature-description {
+  color: #6b7280;
+}
+
+/* Footer */
+footer {
+  background-color: #111827;
+  color: #9ca3af;
+}
+
+footer a {
+  color: #d1d5db;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
